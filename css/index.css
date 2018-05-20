@@ -1,0 +1,332 @@
+.jd_layout{
+    /*width: 100%;*/
+    min-width: 300px;
+    max-width: 640px;
+    height: 1400px;
+    /*background-color: red;*/
+    margin: 0 auto;
+    position: relative;
+}
+.jd_header{
+    width: 100%;
+    /*min-width: 300px;*/
+    /*max-width: 640px;*/
+    height: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*background-color: black;*/
+    z-index: 99;
+}
+.jd_header .jd_header_box{
+    min-width: 300px;
+    max-width: 640px;
+    height: 40px;
+    /*background-color: green;*/
+    margin: 0 auto;
+    position: relative;
+}
+.jd_header .jd_header_box .icon_logo{
+    display: block;
+    background-position: 0 -103px;
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.jd_header .jd_header_box form{
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 55px;
+    position: relative;
+}
+.jd_header .jd_header_box form .icon_search{
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+    position: absolute;
+    top: 10px;
+    left: 85px;
+
+}
+.jd_header .jd_header_box form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.jd_header .login{
+    width: 50px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*轮播图样式设置开始*/
+.jd_banner {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+    height: 310px;
+}
+
+.jd_banner ul:first-child {
+    width: 1000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jd_banner ul:first-child li {
+    width: 10%;
+    float: left;
+}
+
+.jd_banner ul:first-child li img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.jd_banner ul:last-child {
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+    bottom: 10px;
+}
+
+.jd_banner ul:last-child li {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    float: left;
+}
+
+.jd_banner ul:last-child li:first-child {
+    margin-left: 0;
+}
+
+.jd_banner ul:last-child li.now {
+    background: #fff;
+}
+
+/*导航区域样式设置开始*/
+.jd_nav {
+    height: 150px;
+    width: 100%;
+    padding: 0 3.125%;
+    padding-top: 11px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #f5f5f5;
+}
+
+.jd_nav ul {
+    width: 100%;
+}
+
+.jd_nav ul li {
+    width: 25%;
+    height: 69px;
+    float: left;
+}
+
+.jd_nav ul li a {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.jd_nav ul li a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.jd_nav ul li a p {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+.jd_product{
+    margin: 0 5px;
+}
+
+.jd_product .jd_product_box{
+    box-shadow: 0 0 1px 1px #e0e0e0;
+    margin-top: 8px;
+    background: #fff;
+}
+.jd_product .jd_product_box .product_head{
+    height: 32px;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+}
+
+.jd_product .jd_product_box .product_head.no_bor{
+    border-bottom:none;
+}
+
+.jd_product .jd_product_box .product_head h2{
+    font-size: 15px;
+    color: #666;
+    padding-left: 15px;
+    font-weight: inherit;
+    line-height: 32px;
+}
+.jd_product .jd_product_box .product_head h2::before{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 12px;
+    background: #d8505c;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.jd_secondskill .secondskill-head-left{
+    float: left;
+}
+.jd_secondskill .secondskill-head-left .sk_icon{
+    background: url("../img/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.jd_secondskill .secondskill-head-left .sk_name{
+    font-size: 15px;
+    color: #d8505c;
+    font-weight: inherit;
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.jd_secondskill .secondskill-head-left .sk_time{
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.jd_secondskill .secondskill-head-left .sk_time .num{
+    display: block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+}
+.jd_secondskill .secondskill-head-left .sk_time .str{
+    display: block;
+    width: 4px;
+    height: 15px;
+    text-align: center;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+}
+.jd_secondskill .secondskill-head-right{
+    float: right;
+}
+.jd_secondskill .secondskill-head-right a{
+    line-height: 32px;
+    margin-right: 10px;
+}
+.jd_secondskill .product_body{
+    width: 100%;
+}
+.jd_secondskill .product_body ul{
+    width: 100%;
+    padding: 10px 0;
+}
+.jd_secondskill .product_body ul li{
+    width: 33.333%;
+    float: left;
+}
+.jd_secondskill .product_body ul li a{
+    width: 100%;
+}
+
+.jd_secondskill .product_body ul li a .img{
+    width: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+.jd_secondskill .product_body ul li:last-child a .img{
+    border-right:none;
+}
+.jd_secondskill .product_body ul li a .img img{
+    width: 64%;
+    display: block;
+    margin: 0 auto;
+}
+
+.jd_secondskill .product_body ul li a .now_price{
+    color: #d8505c;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+}
+.jd_secondskill .product_body ul li a .old_price{
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-top: 3px;
+    text-align: center;
+    color: #888;
+}
+
+.jd_product .jd_bh .product_body{
+    width: 100%;
+}
+
+.jd_product .jd_bh .product_body .p_left{
+    width: 50%;
+    float: left;
+}
+
+.jd_product .jd_bh .product_body .p_right{
+    width: 50%;
+    float: right;
+}
+
+.jd_product .jd_bh .product_body .b_left{
+    border-left: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_bh .product_body .b_right{
+    border-right: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_bh .product_body .b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_bh .product_body a img{
+    width: 100%;
+    display: block;
+}
